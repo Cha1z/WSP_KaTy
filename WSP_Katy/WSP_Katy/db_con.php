@@ -2,10 +2,9 @@
 $server = "localhost";
 $user = "admin";
 $pass = "dåligtlösen";
-$db = "Lab2"
 
 /* Create connection */
-$conn = new mysqli($server, $user, $pass, $db);
+$conn = new mysqli($server, $user, $pass);
 
 /* Check connection */
 if ($conn->connect_error){
